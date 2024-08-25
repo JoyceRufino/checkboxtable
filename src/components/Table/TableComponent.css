@@ -1,0 +1,23 @@
+.table-container {
+    padding: 20px;
+    background-color: #f8f9fa; /* Cor de fundo levemente cinza */
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  .custom-table {
+    background-color: #ffffff; /* Fundo branco para a tabela */
+    border-radius: 10px; /* Bordas arredondadas */
+    overflow: hidden; /* Para garantir que o border-radius funcione nas bordas da tabela */
+  }
+  
+  .custom-table thead th {
+    background-color: #6f42c1; /* Cor de fundo roxo para o cabeçalho */
+    color: #ffffff; /* Texto branco no cabeçalho */
+    border-color: #6f42c1; /* Cor da borda do cabeçalho */
+  }
+  
+  .custom-table tbody tr:hover {
+    background-color: #d8bfd8; /* Cor de fundo roxo claro ao passar o mouse sobre as linhas */
+  }
+  
